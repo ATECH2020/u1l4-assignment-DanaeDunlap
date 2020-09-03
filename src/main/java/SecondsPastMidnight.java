@@ -7,9 +7,13 @@ class SecondsPastMidnight {
         Scanner scanner = new Scanner(System.in);
 
         //Reads int from user
-        int number = scanner.nextInt();
+        int seconds = scanner.nextInt();
+			
 
         //Your code goes here
+				int hour = seconds / 3600; 
+				int minutes = seconds / 60; 
+				System.out.println(hour + " " + minutes);
 
 
         // closing the scanner object
