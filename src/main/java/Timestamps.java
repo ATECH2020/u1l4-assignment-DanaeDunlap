@@ -18,6 +18,7 @@ class Timestamps {
         /*
          *  your code goes here
          */
+				 int hour1 = hours1 * 360
 
 
         // closing the scanner object
