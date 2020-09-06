@@ -24,7 +24,7 @@ class StudentDesks {
 					totalDesk = (totalKids / 2) + 1; 
 				}
 
-				System.out.println(totalDesk);
+				System.out.print(totalDesk);
 
         // closing the scanner object
         scanner.close();

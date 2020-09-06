@@ -16,9 +16,10 @@ class AnalogClock {
          */
 				int hour = hourDegree / 30; 
 				double min = (hourDegree % 30.0) * 2;
-				double minDegree = min * 6; 
+				int minDegree = (int) min * 6;
 
-				System.out.println(minDegree);
+
+				System.out.print(minDegree);
 
         // closing the scanner object
         scanner.close();
