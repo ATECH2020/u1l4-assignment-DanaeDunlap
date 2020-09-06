@@ -24,7 +24,7 @@ class Timestamps {
 				 int minToSec2 = minutes2 * 60; 
 				 
 				 int deltaHour = hourToSec2 - hourToSec1;
-				 int deltaMin = minToSec2 - minToSec2;
+				 int deltaMin = minToSec2 - minToSec1;
 				 int deltaSec = seconds2 - seconds1; 
 
 				 int totalSec = deltaHour + deltaMin + deltaSec;
